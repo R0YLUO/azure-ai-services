@@ -13,7 +13,7 @@ def main():
 def analyse_image(client):
   res = client.analyze(
     image_url="https://learn.microsoft.com/azure/ai-services/computer-vision/media/quickstarts/presentation.png", 
-    visual_features=[VisualFeatures.TAGS]
+    visual_features=[VisualFeatures.PEOPLE]
   )
   print(res)
 
