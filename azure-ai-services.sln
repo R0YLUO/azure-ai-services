@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "openai", "openai", "{6474300C-E8A5-4739-A8F1-A5813E3E07F6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "openai", "openai", "{4E7B4E8D-29B1-4701-8D60-5149D59CD0EA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp", "csharp", "{647011BE-F16D-4CB3-8940-B93999631331}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp", "csharp", "{A20976A1-92A2-41F5-ABF5-B2D5A982CA43}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dalle3", "openai\csharp\dalle3\dalle3.csproj", "{468BD022-2C88-4D5B-8339-DFAE7DDD052A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dalle3", "openai\csharp\dalle3\dalle3.csproj", "{95D0F6D6-6A87-467C-9897-56B466575738}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nlp", "openai\csharp\nlp\nlp.csproj", "{85A7A007-5D76-413D-BB89-67F78A6905B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,19 +17,24 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{468BD022-2C88-4D5B-8339-DFAE7DDD052A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{468BD022-2C88-4D5B-8339-DFAE7DDD052A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{468BD022-2C88-4D5B-8339-DFAE7DDD052A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{468BD022-2C88-4D5B-8339-DFAE7DDD052A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D0F6D6-6A87-467C-9897-56B466575738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D0F6D6-6A87-467C-9897-56B466575738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D0F6D6-6A87-467C-9897-56B466575738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D0F6D6-6A87-467C-9897-56B466575738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85A7A007-5D76-413D-BB89-67F78A6905B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A7A007-5D76-413D-BB89-67F78A6905B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A7A007-5D76-413D-BB89-67F78A6905B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A7A007-5D76-413D-BB89-67F78A6905B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{647011BE-F16D-4CB3-8940-B93999631331} = {6474300C-E8A5-4739-A8F1-A5813E3E07F6}
-		{468BD022-2C88-4D5B-8339-DFAE7DDD052A} = {647011BE-F16D-4CB3-8940-B93999631331}
+		{A20976A1-92A2-41F5-ABF5-B2D5A982CA43} = {4E7B4E8D-29B1-4701-8D60-5149D59CD0EA}
+		{95D0F6D6-6A87-467C-9897-56B466575738} = {A20976A1-92A2-41F5-ABF5-B2D5A982CA43}
+		{85A7A007-5D76-413D-BB89-67F78A6905B7} = {A20976A1-92A2-41F5-ABF5-B2D5A982CA43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4A0AE572-AF9F-41CC-ABB6-81E8BB6393E9}
+		SolutionGuid = {3D5B2493-74F9-44FF-BFC1-2EF68EC74F12}
 	EndGlobalSection
 EndGlobal
